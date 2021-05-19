@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+</head>
+<body>
+    
+    <div class="container">
+        <div class="forms-container">
+           <div class="signin signup">
+               <!--sign in form-->
+              <form action="./home.html"  class="sign-in-form" id="form">
+                 <h2 class="title">Login</h2>
+                 <div class="input-field">
+                     <i class="fas fa-user"></i>
+                     <input type="text" placeholder="Username" id="username" name="" value="" minlength="2" required>
+  
+                  </div>
+                  <div class="input-field">
+                      <i class="fas fa-lock"></i>
+                      <input type="password" placeholder="Password" id="password" name="" value="" minlength="8" required >
+                   </div>
+                        <label for="forgot" class="click"><h5>Forgot Password?</h5></label>
+                        <input type="submit" class="btn solid" value="Login">
+  
+                    </form>
+                    <!--sign in form-->
+                    <!--forgetpassword-->
+                        <input type="checkbox" id="forgot">
+                        <div class="forgetpass">
+                            <div class="header">
+                                <h2>Forgot Password ?</h2>
+                                <label for="forgot" class="fa fa-times"></label>
+                            </div>
+                            <img src="../img/html/Login/forgotpass.svg" class="imgpass">
+                            <p>Seems like you forgot your password. <br>
+                                Please enter the email address you'd like your password reset information sent to.
+                            </p>
+                            <form action="#" class="forgotpass-form">
+                                <h4>Enter your e-mail address</h4>
+                                <div class="input-field-pass">
+                                    <i class="fas fa-envelope"></i>
+                                    <input type="email" name="email" placeholder="email address" required><br>
+                                </div>
+                                <button type="submit" class="close-btn">Send My Password</button>
+                            </form>
+                        </div>
+                        <!--forgetpassword-->
+           </div>
+        </div>
+    </div>
+    <!--sign in form-->
+    <!--sign up button-->
+    <div class="panels-container">
+        <div class="panel">
+            <div class="content">
+                <h3>New Here ?</h3>
+                <p>Create an account and have full access to all our services.
+                    Don't miss this chance and join millions of people, became a member of our family.</p>
+                    <a href="./signup.html"><button class="btn transparent" id="sign-up-button">
+                    Sign Up
+                    </button></a>
+                </div>
+                <img src="../img/html/Login/Login.svg" alt="">
+        </div>
+    </div>
+    <!--sign up button-->
+</body>
+</html>

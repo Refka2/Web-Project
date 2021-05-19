@@ -1,0 +1,293 @@
+:root{
+    --color: #e950b1;
+    --labelcolor:#fff;
+    --a:#3b5999;
+    --b:#55acee;
+    --d:#e4405f;
+    --e:#b92b27;
+    --f:#3fa32b;
+    --g:#155e7a;
+    --h:#9c1c87;
+    --i:#af6764;
+    --l:#b6b927;
+    --m:#273db9;
+    --p:#b96127;
+    --s:#27b95f;
+    --t:#e409ec;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    text-align: center;
+}
+.wrapper{
+    width: 970px;
+    margin: 100px auto 0;
+}
+.wrapper .title{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container .option_item{
+    display: block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+.option_item .animals{
+    background: url(../img/html/categories/1316912.jpg) no-repeat center center;
+}
+.option_item .art{
+    background:url(../img/html/categories/art1.jpg) no-repeat center center;
+}
+.option_item .beauty{
+    background:url(../img/html/categories/beauty.jpg) no-repeat center center;
+}
+.option_item .books{
+    background:url(../img/html/categories/books.jpeg) no-repeat center center;
+}
+.option_item .dance{
+    background:url(../img/html/categories/dance.jpg) no-repeat center center;
+}
+.option_item .economics{
+    background:url(../img/html/categories/economics.webp) no-repeat center center;
+}
+.option_item .education{
+    background:url(../img/html/categories/education.jpg) no-repeat center center;
+}
+.option_item .engineering{
+    background:url(../img/html/categories/engineering.jpg) no-repeat center center;
+}
+.option_item .environment{
+    background:url(../img/html/categories/environment.webp) no-repeat center center;
+}
+.option_item .fashion{
+    background:url(../img/html/categories/fashion.jpg) no-repeat center center;
+}
+.option_item .food{
+    background:url(../img/html/categories/food.jpg) no-repeat center center;
+}
+.option_item .gaming{
+    background:url(../img/html/categories/gaming.jpg) no-repeat center center;
+}
+.option_item .health{
+    background:url(../img/html/categories/haealth.jpg) no-repeat center center;
+}
+.option_item .history{
+    background:url(../img/html/categories/History.png) no-repeat center center;
+}
+.option_item .inventions{
+    background:url(../img/html/categories/inventions.jpg) no-repeat center center;
+}
+.option_item .literature{
+    background:url(../img/html/categories/literature.jpg) no-repeat center center;
+}
+.option_item .manga{
+    background:url(../img/html/categories/manga.jpg) no-repeat center center;
+}
+.option_item .movies{
+    background:url(../img/html/categories/movies.jpg) no-repeat center center;
+}
+.option_item .music{
+    background:url(../img/html/categories/music.jpg) no-repeat center center;
+}
+.option_item .mystery{
+    background:url(../img/html/categories/mystery.jpg) no-repeat center center;
+}
+.option_item .philosophy{
+    background:url(../img/html/categories/philosophy.jpg) no-repeat center center;
+}
+.option_item .politics{
+    background:url(../img/html/categories/politics.jpg) no-repeat center center;
+}
+.option_item .science{
+    background:url(../img/html/categories/science.jpg) no-repeat center center;
+}
+.option_item .space{
+    background:url(../img/html/categories/space.jpg) no-repeat center center;
+}
+.option_item .sports{
+    background:url(../img/html/categories/sports.png) no-repeat center center;
+}
+.option_item .technology{
+    background:url(../img/html/categories/technology.jpg) no-repeat center center;
+}
+.option_item .travel{
+    background:url(../img/html/categories/travel.jpg) no-repeat center center;
+}
+.option_item .option_inner{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.option_item .option_inner:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.option_item .option_inner {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 10%;
+    text-align: center;
+    padding: 58px 40px;        
+    cursor: pointer;
+    color: var(--labelcolor);
+    display: block;
+    background-blend-mode: darken;
+    border: 5px solid transparent;    
+    position: relative;
+}
+
+.option_item .checkbox{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+    opacity: 0;
+}
+.option_item .option_inner .name{
+    user-select: none;
+    font-size: 24px;
+}
+.option_item .checkbox:checked ~ .option_inner.a{
+    border-color: var(--a);
+}
+.option_item .checkbox:checked ~ .option_inner.b{
+    border-color: var(--b);
+}
+.option_item .checkbox:checked ~ .option_inner.d{
+    border-color: var(--d);
+}
+.option_item .checkbox:checked ~ .option_inner.e{
+    border-color: var(--e);
+}
+.option_item .checkbox:checked ~ .option_inner.f{
+    border-color: var(--f);
+}
+.option_item .checkbox:checked ~ .option_inner.g{
+    border-color: var(--g);
+}
+.option_item .checkbox:checked ~ .option_inner.h{
+    border-color: var(--h);
+}
+.option_item .checkbox:checked ~ .option_inner.i{
+    border-color: var(--i);
+}
+.option_item .checkbox:checked ~ .option_inner.l{
+    border-color: var(--l);
+}
+.option_item .checkbox:checked ~ .option_inner.m{
+    border-color: var(--m);
+}
+.option_item .checkbox:checked ~ .option_inner.p{
+    border-color: var(--p);
+}
+.option_item .checkbox:checked ~ .option_inner.s{
+    border-color: var(--s);
+}
+.option_item .checkbox:checked ~ .option_inner.t{
+    border-color: var(--t);
+}
+.option_item .option_inner .tickmark{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 20px solid;
+    border-color: #000 transparent transparent #000;
+    border-radius: 15%;
+    display: none;
+}
+.option_item .checkbox:checked ~ .option_inner .tickmark{
+    display: block;
+}
+.option_item .option_inner .tickmark:before{
+    content: "";
+    position: absolute;
+    top: -18px;
+    left: -16px;
+    width: 15px;
+    height: 5px;
+    border: 3px solid red;
+    border-color: transparent transparent #fff #fff ;
+    transform: rotate(-45deg);
+}
+.option_item .option_inner.a .tickmark{
+    border-color: var(--a) transparent transparent var(--a);
+
+}
+.option_item .option_inner.b .tickmark{
+    border-color: var(--b) transparent transparent var(--b);
+
+}
+.option_item .option_inner.d .tickmark{
+    border-color: var(--d) transparent transparent var(--d);
+
+}
+.option_item .option_inner.e .tickmark{
+    border-color: var(--e) transparent transparent var(--e);
+
+}
+.option_item .option_inner.f .tickmark{
+    border-color: var(--f) transparent transparent var(--f);
+
+}
+.option_item .option_inner.g .tickmark{
+    border-color: var(--g) transparent transparent var(--g);
+
+}
+.option_item .option_inner.h .tickmark{
+    border-color: var(--h) transparent transparent var(--h);
+
+}
+.option_item .option_inner.i .tickmark{
+    border-color: var(--i) transparent transparent var(--i);
+
+}
+.option_item .option_inner.l .tickmark{
+    border-color: var(--l) transparent transparent var(--l);
+
+}
+.option_item .option_inner.m .tickmark{
+    border-color: var(--m) transparent transparent var(--m);
+
+}
+.option_item .option_inner.p .tickmark{
+    border-color: var(--p) transparent transparent var(--p);
+
+}
+.option_item .option_inner.s .tickmark{
+    border-color: var(--s) transparent transparent var(--s);
+
+}
+.option_item .option_inner.t .tickmark{
+    border-color: var(--t) transparent transparent var(--t);
+
+}
+.btn{  
+    
+    width: 150px;       
+    height: 49px;           
+    outline: none;
+    border: none;
+    border-radius: 48px;       
+    background-color: var(--color);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    transition: all 0.5s;
+}
+.btn:hover{
+    background-color: #d81791;
+}

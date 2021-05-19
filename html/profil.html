@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>profil</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel=stylesheet type="text/css" href="../css/styles.css">
+</head>
+<body class="profile">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>	
+	<script src="../js/main.js"></script>
+
+	<div class ="container" id="blur">
+		<div class="profil-header">
+			<div class="profil_image">
+				<img src="../img/html/profil/profilph.png" alt="profil image" height="70px">
+			</div>
+			<div class="information">
+				<h3 class="user_name">username</h3>
+			</div>
+			
+			<div class="options">
+				<div class="notification">
+					<i class="material-icons">add_alert</i>
+				</div>
+				<div class="settings">
+					<i class="material-icons">settings</i>
+				</a>
+				</div>
+			</div>
+		</div>
+		<div class="main-bd">
+			<div class="left-side">
+				<div class="profile-side">
+					<p class="user-mail">
+						<i class="fa fa-envelope"></i>
+						username@gmail.com
+					</p>
+				
+					<div class="btn">
+						<button class="chat">
+							<i class="fa fa-comment"></i>Chat
+						</button>
+						<button class="create">
+							<i class="fa fa-plus"></i>Create
+						</button>
+					</div>
+				</div>
+			</div>
+		
+			<div class="right-side">
+				<div class="nav">
+					<ul>
+						<li  class="post active">Posts</li>
+						<li  class="fav">Favorites</li>
+					</ul>
+				</div>
+				
+				<div class="profile-body">
+					<div class="profile-posts tab a1 ">
+						<h1> Posts </h1>
+						<p><h3>Why We Make Art</h3>
+						Seven artists explain why they write, rap, take photos, draw, dance, and make movies.
+						<h6>BY JEREMY ADAM SMITH, JASON MARSH | DECEMBER 1, 2008</h6>
+						Why do you make art? That’s the simple question Greater Good posed to seven artists. 
+						Their answers are surprising, and very diverse. They mention making art for fun and adventure;
+						building bridges between themselves and the rest of humanity; reuniting and recording fragments
+						of thought, feeling, and memory; and saying things that they can’t express in any other way.
+					
+						All their answers are deeply personal. Elsewhere on Greater Good, we explore the possible cognitive
+						and emotional benefits of the arts, and yet these artists evoke a more fundamental benefit: They are
+						just doing what they feel they’re born to do.<p>
+					</div>
+					<div class="profile-fav tab  ">
+						<h1> Favorites </h1>
+						<pre>NO Favourites for you                                                             </pre>	
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+
+		<div class="edit-profil mask">
+			<div class="title"	>
+				<!-- <h2>Edit profil</h2> -->
+			</div>
+			<div class="left">
+				<div class="button-box">
+					<div id="btn"></div>
+					<button type='button'  class="information first btn1" >General</button>
+					<button type="button"  class="password btn1" >Security</button>
+					
+				</div>
+			</div>
+			<div class="righ">
+				<div class="info ">
+					<!-- <h3>information</h3> -->
+					<img src="../img/html/profil/profilph.png" alt="profil image" height="90px">
+					<br><br>
+					
+					<form id="info" class="input-group">
+						<label for="file-img" class="label-file"> Choose a photo </label>
+						<input id="file-img" class="input-file" type="file">
+						<div>
+							<!-- <h4> username </h4> -->
+							<input type="text" class="input-field" placeholder="username" name="" minlength="2" >
+						</div>
+						
+						<h4> language </h4>
+						<div class="radio-box">
+							<input type="radio" name="language" value="En" id="en">
+							<label for="en">English</label>
+							<br>
+							<input type="radio" name="language" value="Ar" id="ar">
+							<label for="ar">Arabic</label>
+						</div>
+						<input type="submit" class="submit-btn" value = "Change">
+					</form>
+				</div>
+				<div class="pass aa">
+					<h3>password</h3>
+					<form id="pass" class="input-group">
+						<input type="password" class="input-field" placeholder="Current password" minlength="8" >
+						<input type="password" class="input-field" placeholder="New password" minlength="8" >
+						<input type="submit" class="submit-btn" value = "Change">
+					</form>
+				</div>
+			</div>
+
+		</div>
+	
+
+	<div class="add-post mask">
+		<h2 class="new"> Add new post </h2>
+		<form>
+			<div class="new-post">
+				<textarea id="post" name="post" placeholder="" rows = "6" cols="50" onfocus="this.value=''; setbg('white');" onblur="setbg('#ffe6ee')"></textarea>
+				<h3> OR </h3>
+				<label for="file" class="label-file"> Choose a file </label>
+				<input id="file" class="input-file" type="file">
+				<br><br>
+				<input type="submit" class="submit-btn" value="post">
+			</div>
+		</form>
+	</div>
+
+</body>
+</html>

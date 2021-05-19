@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+</head>
+<body>
+    <div class="container">
+        <div class="forms-container">
+           <div class="signup">
+              <form action="./categories.html" class="sign-up-form">
+                 <h2 class="title">Sign Up</h2>
+                 <div class="input-field">
+                       <i class="fas fa-user"></i>
+                       <input type="text" placeholder="Username" name="" value="" minlength="2" required>
+  
+                    </div>
+                    <div class="input-field">
+                       <i class="fas fa-envelope"></i>
+                       <input type="email" placeholder="E-mail" name="" value="" required>
+                    </div>
+                    <div class="input-field">
+                       <i class="fas fa-lock"></i>
+                       <input type="password" placeholder="Password" name="" value="" minlength="8" required >
+                    </div>
+                    <div class="input-field">
+                       <i class="fas fa-sort-numeric-up-alt"></i>
+                       <input type="number" placeholder="Age" name="age" value="" required max="110">
+                    </div>
+                    <div class="radio gender center">
+                       <i class="fas fa-male"></i>
+                       <input type="radio" name="gender" value="M" required>
+                       <i class="fas fa-female"></i>
+                       <input type="radio" name="gender" value="F" required>
+                       <span></span>
+                    </div>
+                    <div class="radio language center"> 
+                       <i class="fas fa-language"></i>
+                       <input type="radio" name="language" value="En" required>
+                       <i class="fas fa-language"></i>
+                       <input type="radio" name="language" value="Ar" required>
+                       <span></span>
+                    </div>
+                    <h5><input type="checkbox" name="condition" required> I have accepted the <a href="./termsofuse.html">terms of use and Privacy Policy</a></h5>
+                    <input type="submit" class="btn solid" value="Sign Up">
+  
+              </form>
+            </div>
+        </div>
+      </div>
+        <div class="panels-container">
+           <div class="panel">
+              <div class="content">
+                 <h3>One of us ?</h3>
+                 <p>Create an account and have full access to all our services.
+                    Don't miss this chance and join millions of people, became a member of our family.</p>
+                    <a href="./login.html"><button class="btn transparent" id="sign-in-button">
+                       Login
+                    </button></a>
+                 </div>
+                 <img src="../img/html/Login/signup.svg" alt="">
+           </div>
+        </div>
+</body>
+</html>

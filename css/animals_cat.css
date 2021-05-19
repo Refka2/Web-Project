@@ -1,0 +1,168 @@
+:root{
+    --color: #e950b1;
+    --body: rgb(241, 226, 226);
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    padding-left: 80px;
+    padding-right: 65px;
+    text-align: center;
+    background: var(--body);
+}
+ol{
+    text-align: left;
+    margin-left: 5%;
+    font-size: 18px;
+}
+.main-article{
+    position: relative;
+    width: 90%;
+    float: left;
+    margin-left: 5%;
+    background: white;
+    margin-top: -25%;
+    z-index: 0;
+}
+.main-article .adjust{
+    margin-top: 35%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.main-article .adjust p, .main-article .adjust img{
+    padding: 2% 2%;
+}
+.main-article .adjust p{
+    font-size: 20px;
+}
+.intro.environment{
+    background-image: url(../img/html/post_cat/environment_cat.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+.intro.animals{
+    background-image: url(../img/html/post_cat/animals_cat2.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+.intro.food{
+    background-image: url(../img/html/post_cat/food_cat9.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+.intro.cake{
+    background-image: url(../img/html/index/cakepost.jpg);
+    background-repeat: no-repeat ;
+    background-size: 120% 130%;
+	background-position: center;
+}
+.intro.tra{
+	background-image: url(../img/html/post_cat/travel_cat4.jpg);
+	
+}
+
+.images img{
+	width: 50%;
+}
+.intro.art{
+	background-image: url(../img/html/index/art2.jpg);
+	background-repeat: no-repeat;
+	background-size: 120% 130%;
+	background-position: center;
+	
+}
+.intro{
+    position: relative;
+    width: 90%;
+    float: left;
+    margin-left: 3%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    box-shadow: 5px 3px 5px rgba(0,0,0,0.7);
+    z-index: 100;
+}
+.intro .intro-title{
+    width: 65%;
+    float: left;
+    height: 400px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 17%;
+}
+.intro-title h1{
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 1%;
+    color: white;
+    font-size: 40px;
+}
+.intro-title h4{
+    color: white;
+    font-size: 20px;
+}
+.fa-heart{
+    position: relative;
+    /* left: -55%; */
+    right: -55%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 250%;
+    color: rgb(214, 202, 202);
+    cursor: pointer;
+}
+.full{
+    color: #be127f;
+}
+.profile{
+    position: relative;
+    left: -8%;
+    display: flex;
+    background: var(--body);
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.profile .fa-user{
+    font-size: 450%;
+    padding-left: 15%;
+    padding-top: 4%;
+}
+.profile h5{
+    text-align: center;
+    padding: 35% 30%;
+    font-size: 20px;
+}
+.home-btn{
+    border: 1px solid var(--color);
+    border-radius: 3px;
+    color: var(--color);
+    padding: 8px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 5%;
+}
+.home-btn:hover{
+    background: var(--color);
+    color: white;
+}
+.main {
+    margin: 10px 0px;
+}
+@media(max-width: 900px){
+    body{
+        padding: 40px;
+    }
+}
+@media(max-width: 700px){
+    body{
+        padding: 20px;
+    }
+}
